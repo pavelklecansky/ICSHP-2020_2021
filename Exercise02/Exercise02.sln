@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseLib", "BaseLib\BaseLib.csproj", "{1E478A5B-D488-44D1-970B-CE3D29C49DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayProject", "ArrayProject\ArrayProject.csproj", "{34090AE6-A2A4-42B5-B248-19CBDB412D43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E478A5B-D488-44D1-970B-CE3D29C49DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E478A5B-D488-44D1-970B-CE3D29C49DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E478A5B-D488-44D1-970B-CE3D29C49DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E478A5B-D488-44D1-970B-CE3D29C49DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34090AE6-A2A4-42B5-B248-19CBDB412D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34090AE6-A2A4-42B5-B248-19CBDB412D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34090AE6-A2A4-42B5-B248-19CBDB412D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34090AE6-A2A4-42B5-B248-19CBDB412D43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

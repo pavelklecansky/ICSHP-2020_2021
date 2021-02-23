@@ -10,9 +10,7 @@ namespace Sample01
         private static int GetCount(string[] args)
         {
             if (args.Length == 0) return DEFAULT_COUNT;
-            if (int.TryParse(args[0], out int count))
-                return count;
-            return DEFAULT_COUNT;
+            return int.TryParse(args[0], out int count) ? count : DEFAULT_COUNT;
         }
 
         static void Main(string[] args)

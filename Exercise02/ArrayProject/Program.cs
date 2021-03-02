@@ -7,18 +7,20 @@ namespace ArrayProject
 {
     class Program
     {
-        public static int[] numberArray { get; set; }
 
-        static void PrintMenu()
-        {
-            Console.WriteLine(
-                @"1. Zadaní prvků pole z klávesnice
+         private static readonly string menu = @"1. Zadaní prvků pole z klávesnice
 2. Výpis pole na obrazovku
 3. Utřídění pole vzestupně
 4. Hledání minimálního prvku
 5. Hledání prvního výskytu zadaného čísla
 6. Hledání posledního výskytu zadaného čísla
-7. Konec programu");
+7. Konec programu";
+        
+        public static int[] numberArray { get; set; }
+
+        static void PrintMenu()
+        {
+            Console.WriteLine(menu);
         }
 
         static void Main(string[] args)

@@ -19,7 +19,12 @@ namespace Fei
                 Console.Write(message + ": ");
                 var userInput = Console.ReadLine();
 
-                return int.TryParse(userInput, out int number) ? number : 0;
+                if (int.TryParse(userInput, out int number))
+                {
+                    return number;
+                }
+
+                throw new ArgumentException("Bad number format");
             }
 
             /// <summary>
@@ -32,7 +37,12 @@ namespace Fei
                 Console.Write(message + ": ");
                 var userInput = Console.ReadLine();
 
-                return double.TryParse(userInput, out double number) ? number : 0;
+                if (double.TryParse(userInput, out double number))
+                {
+                    return number;
+                }
+
+                throw new ArgumentException("Bad number format");
             }
 
             /// <summary>
